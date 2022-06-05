@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="51dd92a1-cd04-498a-bd57-fd06f4b81305" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgian/comp1011m2022ice4/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgian/comp1011m2022ice4/DBManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgian/comp1011m2022ice4/Vector2DTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgian/comp1011m2022ice4/Vector2DTableViewController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654433225156</updated>
-      <workItem from="1654433226547" duration="6102000" />
+      <workItem from="1654433226547" duration="8564000" />
     </task>
     <servers />
   </component>
