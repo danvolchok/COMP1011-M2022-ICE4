@@ -87,6 +87,12 @@ public class DBManager
         return vectorID;
     }
 
+    /**
+     * This method reads the vectors table from the MySQL database
+     * and returns ArrayList of Vector2D type
+     *
+     * @return
+     */
     public ArrayList<Vector2D> readVectorTable()
     {
         // Instantiates an ArrayList collection of type Vector2D (empty container)

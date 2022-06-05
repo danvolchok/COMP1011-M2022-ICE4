@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -27,11 +28,10 @@ public class Vector2DTableViewController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle)
     {
-        var vectors = DBManager.Instance().readVectorTable();
-        System.out.println("Vector2D Data: ");
-        for (var vector: vectors)
-        {
-            System.out.println(vector);
-        }
+        VectorIDColumn.setCellValueFactory(new PropertyValueFactory<>("ID"));
+        XColumn.setCellValueFactory(new PropertyValueFactory<>("X"));
+        YColumn.setCellValueFactory(new PropertyValueFactory<>("Y"));
+
+        tableView.getItems().addAll(DBManager.Instance().readVectorTable());
     }
 }
