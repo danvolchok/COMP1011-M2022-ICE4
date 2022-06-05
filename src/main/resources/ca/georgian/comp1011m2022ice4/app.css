@@ -1,0 +1,10 @@
+.labels
+{
+        -fx-font-size: 40px;
+    -fx-background-color: lightyellow;
+}
+
+.table-column
+{
+    -fx-alignment: center;
+}
